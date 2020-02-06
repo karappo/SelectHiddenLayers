@@ -1,0 +1,29 @@
+{
+  "name" : "Select Hidden Layers",
+  "host" : {
+    "app" : "XD",
+    "minVersion" : "21.0"
+  },
+  "id" : "1cef1a87",
+  "icons" : [ {
+    "path" : "images/icon@1x.png",
+    "width" : 24,
+    "height" : 24
+  }, {
+    "path" : "images/icon@2x.png",
+    "width" : 48,
+    "height" : 48
+  } ],
+  "uiEntryPoints" : [
+    {
+      "type" : "menu",
+      "label" : "Select hidden layers",
+      "commandId" : "selectHiddenLayers",
+      "shortcut": {
+        "mac": "Cmd+Shift+T",
+        "win": "Ctrl+Shift+T"
+      }
+    }
+  ],
+  "version" : "0.0.1"
+}
