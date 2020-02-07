@@ -1,6 +1,10 @@
 
 function selectHiddenLayers(selection) {
-  selection.items = getHiddenChildren(selection.items[0])
+  const select_target_items = []
+  selection.items.forEach(function (artboard) {
+    getHiddenChildren(artboard, select_target_items)
+  })
+  selection.items = select_target_items
 }
 function getHiddenChildren (node, array = []) {
   if (!node.visible) {
