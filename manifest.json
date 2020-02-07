@@ -17,13 +17,9 @@
   "uiEntryPoints" : [
     {
       "type" : "menu",
-      "label" : "Select hidden layers",
-      "commandId" : "selectHiddenLayers",
-      "shortcut": {
-        "mac": "Cmd+Shift+T",
-        "win": "Ctrl+Shift+T"
-      }
+      "label" : "Select hidden layers from Artboard(s)",
+      "commandId" : "selectHiddenLayers"
     }
   ],
-  "version" : "0.0.2"
+  "version" : "0.0.3"
 }
